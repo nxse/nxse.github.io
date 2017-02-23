@@ -3082,3 +3082,76 @@
 			}
 
 	}
+/*four*/
+	#friendsAisle {
+		text-align: center;
+	}
+	position {
+		background: #4F80FF;
+		border-radius: 5px;
+		color: #fff;
+		font-family: "Source Code Pro", monospace;
+		font-size: 0.9em;
+		margin: 0 0.25em;
+		padding: 0.25em 0.65em;
+	}
+	.female {
+		background-color: #F92665;
+	}
+	
+	.img-circle {
+		border-radius: 50%;
+	}
+	.header-shadow {
+		box-shadow: 3px 1px 5px #aaa;
+	}
+	.border-male {
+		border: 3px rgba(79,128,255,0.7) solid;
+	}
+	.border-female {
+		border: 3px rgba(244,156,149,0.7) solid;
+	}
+
+	.buddy .img-circle {
+		width: 100%;
+	}
+	/*show four*/
+@media screen and (min-width: 1279px) {
+	.buddy {
+		width: 20%;
+		font-size: 1em;
+		display: inline-block;
+		text-align: center;
+		margin: 3% 2%;
+	}
+}
+/*show three*/
+@media screen and (min-width: 763px) and (max-width: 1280px) {
+	.buddy {
+		width: 30%;
+		font-size: 1em;
+		display: inline-block;
+		text-align: center;
+		margin: 6% 1%;
+	}
+}
+/*show two*/
+@media screen and (min-width: 479px) and (max-width: 764px) {
+	.buddy {
+		width: 42%;
+		font-size: 1em;
+		display: inline-block;
+		text-align: center;
+		margin: 6% 3%;
+	}
+}
+/*show one*/
+@media screen and (max-width: 480px) {
+	.buddy {
+		width: 90%;
+		font-size: 1em;
+		display: inline-block;
+		text-align: center;
+		margin: 10% 5%;
+	}
+}
