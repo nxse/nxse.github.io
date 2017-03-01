@@ -2779,7 +2779,7 @@
 		/* One */
 
 			#one:before {
-				height: 10em;
+				height: 14em;
 			}
 
 		/* Off-Canvas Navigation */
@@ -2977,7 +2977,7 @@
 		/* One */
 
 			#one:before {
-				height: 7em;
+				/*height: 7em;*/
 			}
 
 		/* Footer */
@@ -3082,7 +3082,7 @@
 			}
 
 	}
-/*four*/
+	/*four*/
 	#friendsAisle {
 		text-align: center;
 	}
