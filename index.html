@@ -33,9 +33,10 @@
         </nav>
         <footer>
             <ul class="icons">
-                <li><a href="javascript:void();" class="icon fa-weibo" target="_blank"><span class="label">Weibo</span></a></li>
-                <li><a href="https://github.com/nxse" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
-                <li><a href="mailto:nxse14@gmail.com" title="mail us" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+                <li><a id="toggleBGM" title="点击播放" class="icon fa-volume-off"><span class="label">BGM</span></a></li>
+                <li><a href="javascript:void();" class="icon fa-weibo" title="o_O?"><span class="label">Weibo</span></a></li>
+                <li><a href="https://github.com/nxse" class="icon fa-github" title="github" target="_blank"><span class="label">Github</span></a></li>
+                <li><a href="mailto:nxse14@gmail.com" title="www.nxse14@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
             </ul>
         </footer>
     </section>
@@ -155,7 +156,7 @@
                     <h3>班级成员</h3>
                     <p>这里都是 志存高远 才华横溢 的班级小伙伴哦~</p>
                     <div id="friendsAisle">
-                        <!-- manager -->
+                        manager
                         <div class="buddy">
                             <a href="javascript:void();"><img src="images/counsellor.jpg" class="img-circle male header-shadow border-female" alt="杨薇" /></a>
                             <position class="female">辅导员</position>
@@ -382,6 +383,10 @@
             </div>
         </section>
     </div>
+    <!-- Music -->
+    <audio id="music" src="assets/music/valder_fields.mp3" loop="loop">
+        Your browser does not support the audio element.
+    </audio>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollzer.min.js"></script>
